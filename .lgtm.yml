@@ -1,4 +1,3 @@
-extraction:
-    cpp:
-        after_prepare:
-            - cat /proc/cpuinfo
+path_classifiers:
+    library:
+        - exclude: blah/**/*
